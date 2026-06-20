@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de funcionamiento del .map</title>
+</head>
+<body>
+    <h1>Prueba de funcionamiento del .map</h1>
+    <style>
+        /* CODIGO CSS */
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+        }
+    </style>
+    <script>
+        // CODIGO JAVASCRIPT
+        let numeros = [1, 2, 3, 4, 5];
+        let numerosDuplicados = [];
+        for (const numero of numeros) {
+            numerosDuplicados.push(numero * 2)
+        }
+        console.log(numeros);
+
+        console.log(numerosDuplicados);
+        // *****************************
+
+        // HACER USO DEL .MAP
+        // CALLBACK - Funcion que se le pasa como parametro a otra funcion.
+        let numerosDobles = numeros.map(function(numero){
+            return numero * 2;
+        });
+        console.log(numerosDobles);
+
+    </script>
+    
+</body>
+</html>
