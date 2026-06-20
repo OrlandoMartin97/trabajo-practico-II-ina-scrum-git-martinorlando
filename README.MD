@@ -40,11 +40,11 @@ Abrir el archivo `index.html` en el navegador y revisar la consola del desarroll
 
 ## Ejemplo de Resultados
 #### Segmentación de clientes (Python)
-![Explicacion del nmumero de potenciales cliente](image1-1.png)
-![Muestra del listado de potenciales clientes](2-1.png)
+![Explicacion del nmumero de potenciales cliente](imagenes/image1-1.png)
+![Muestra del listado de potenciales clientes](imagenes/2-1.png)
 
 #### Ejercicio .map() en JavaScript
-![Arrays de JavaScrip](js1-1.png)
+![Arrays de JavaScrip](imagenes/js1-1.png)
 
 ## Conclusiones Personales
 Esta aplicacion se puede utilizar para identificar potenciales clientes, ya sea para venderles algun tipo de producto o ofrecerle servicios.
